@@ -27,8 +27,8 @@ You can access the live demo of the website here: [Live Demo](https://example.co
 ![Projects](screenshots/projects.png)
 ![Contact](screenshots/contact.png)
 
-![Flowchart Image](https://docs.google.com/document/d/1lLxqhELWq1GgV6tZ8NfrHcGcxNH8uKZv/edit?usp=sharing&ouid=109289441158767447573&rtpof=true&sd=true)
-![Prototype link](https://drive.google.com/file/d/1Xf4x-Jz81keFhnPQNIrsmYOP0QRboskM/view?usp=sharing)
+(https://docs.google.com/document/d/1lLxqhELWq1GgV6tZ8NfrHcGcxNH8uKZv/edit?usp=sharing&ouid=109289441158767447573&rtpof=true&sd=true)
+(https://drive.google.com/file/d/1Xf4x-Jz81keFhnPQNIrsmYOP0QRboskM/view?usp=sharing)
 
 ## Roadmap and Future Enhancements:
 - **Dynamic Content:** Implement a database to store project data, allowing you to easily add, update, or remove projects through an admin panel.
