@@ -24,6 +24,25 @@ body {
     margin: 0;
     padding: 5px;
 }
+
+.landing-animation {
+    animation-name: slideIn;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%); /* Start from the left */
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0); /* Move to the middle */
+        opacity: 1;
+    }
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -270,6 +289,13 @@ footer p {
 .social-links a:hover {
     text-decoration: underline;
 }
+
+.social-icon {
+    width: 30px;  /* Adjust the width to your desired size */
+    height: 30px; /* Adjust the height to your desired size */
+    margin-right: 10px; /* Add margin to separate the icons */
+}
+
 
 /* Responsive */
 /* Default styles for larger screens */
