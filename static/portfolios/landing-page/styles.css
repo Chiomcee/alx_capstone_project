@@ -1,0 +1,349 @@
+/* VARIABLE */
+
+:root {
+  --primary: #C271FF;
+  --seconadry: #071629;
+  --light-text: #fff;
+  --dark-text: rgba(7, 22, 41, 0.5);
+}
+/*  CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* FONTS */
+@font-face {
+  font-family: 'Source San Pro';
+  src: url(fonts/SourceSansPro-Regular.otf)
+}
+
+/* BASE STYLES */
+
+body {
+  font-family: 'Source San Pro';
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+/* HEADER SECTION */
+.hero {
+	background-image: url('assets/background.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: var(--light-text);
+	text-align: center;
+}
+
+.hero a {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 0 15px;
+	text-transform: uppercase;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 10px 30px;
+}
+
+nav {
+    margin-left: 20px;
+    padding-top: 1.5%;
+}
+
+.logo {
+  margin-right: 20px;
+  padding-top: 4%;
+}
+
+.hero div.get-schooled {
+	margin-top: 20%;
+}
+
+
+.hero h1 {
+	font-size: 5em;
+	font-weight: bolder;
+	margin: 30px;
+}
+
+.hero p.three-words {
+	word-spacing: 30px;
+	font-weight: bold;
+	margin: 15px;
+}
+
+.button {
+  background-color: #C271FF;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px .5px;
+  border-radius: 25px;
+
+}
+button:hover {
+	box-shadow: none;
+}
+.get-schooled button {
+	margin: 5%;
+}
+
+.purple {
+	color: var(--primary);
+	font-weight: bolder;
+}
+
+h2.pro-head {
+	font-size: 1.3em;
+	margin-top: 15%;
+}
+
+div.pros-avatar {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 5%;
+	margin: 0 5%;
+}
+
+main h3 {
+	font-weight: 800;
+}
+
+#quote {
+	background-color: var(--primary);
+	padding: 6% 15%;
+}
+
+.quote-content {
+	display: flex;
+	color: var(--light-text);
+	font-size: 1.3em;
+}
+
+.quote-content .quote-text {
+	margin-left: 3%;
+}
+
+.quote-text blockquote {
+	margin-bottom: 3.5%;
+}
+
+.quote-text h2 {
+	font-weight: 800;
+	margin-bottom: 2%;
+}
+
+.quote-text em {
+	font-style: italic;
+}
+
+/* VIDEO SECTION */
+#videos {
+    padding-bottom: 5%;
+}
+
+.video-head {
+    font-size: 1.5em;
+    margin-top: 7%;
+    color: var(--dark-text);
+    text-align: center;
+    font-weight: 500;
+}
+
+#videos h2 span {
+    color: var(--primary);
+    font-weight: 800;
+}
+
+.video-blocks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.5em;
+    grid-auto-flow: row;
+    margin-top: 4%;
+    padding: 0 10% 0 10%;
+    justify-content: space-around;
+}
+
+.single-video {
+    padding: 0 1.5%;
+}
+
+.thumbnail {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.thumbnail .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .thumbnail .image2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 25%;
+    z-index: 2;
+  }
+
+  .thumbnail .image2:hover {
+    opacity: 0.5;
+  }
+
+  .single-video h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+  }
+
+  .single-video p {
+    color: rgb(65, 65, 65);
+  }
+
+  .author {
+    display: flex;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  .author img {
+    width: 30px;
+    margin-right: 7%;
+  }
+
+  .author h3 {
+    display: flex;
+    color: var(--primary);
+    font-weight: bolder;
+    align-items: center;
+  }
+
+  .stars {
+    display: flex;
+    justify-content: space-between;
+    color: var(--primary);
+  }
+
+  .stars p {
+    color: var(--primary);
+  }
+
+  /* membership section */
+  
+  #membership {
+    background-color: #071629;
+    color: var(--light-text);
+    padding: 7%;
+    text-align: center;
+  }
+
+  #membership > h2 {
+    
+    font-size: 1.5em;
+    margin-bottom: 5%;
+  }
+
+  #membership > h2 span {
+    color: var(--primary);
+    font-weight: bolder;
+  }
+
+  .membership-items {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 7%;
+  }
+
+  #membership h3 {
+    font-weight: bold;
+    margin: 7% 0;
+  }
+
+   /* FAQ section */
+  
+   #faq {
+    padding: 7%;
+    color: var(--dark-text);
+  }
+
+  #faq > h2 {
+    font-size: 2.5em;
+    color: black;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  #faq .row-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5%;
+  }
+
+  .row .item-block {
+    padding: 5%;
+  }
+
+  .row-block .item-block h2 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+
