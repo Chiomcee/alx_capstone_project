@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chioma's Portfolio</title>
 
-    <!-- box icons css library-->
+   
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- custom css -->
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     
@@ -41,18 +40,18 @@
                 <a href="https://twitter.com/Chiomcee_Igwe" target="_blank"><i class='bx bxl-twitter' ></i></a>
                 <a href="https://www.linkedin.com/in/chioma-igwe-aca" target="_blank"><i class='bx bxl-linkedin' ></i></i></a>
             </div>
-            <a href="./portfolios/Chioma_Igwe_CV.pdf" download="Chioma_Igwe_CV.pdf" class="btn">Download CV</a>
+            <a href="{{ url_for('static', filename='portfolios/Chioma_Igwe_CV.pdf') }}" download="Chioma_Igwe_CV.pdf" class="btn">Download CV</a>
         </div>
 
         <div class="home-img">
-            <img src="./images/chi.png" alt="">
+            <img src="{{ url_for('static', filename='images/chi.png') }}" alt="">
         </div>
     </section>
 
     <!-- about section -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="./images/chichi.png" alt="">
+            <img src="{{ url_for('static', filename='images/chichi.png') }}" alt="">
         </div>
 
         <div class="about-content">
@@ -95,89 +94,71 @@
 
         <div class="portfolio-container">
             <div class="portfolio-bx">
-                <img src="./images/landing.jpg" alt="">
+                <img src="{{ url_for('static', filename='images/landing.jpg') }}" alt="">
                 <div class="portfolio-layer">
                     <h4>Landing Page</h4>
                     <p>Responsive landing page of the Smileschool</p>
-                    <a href="./portfolios/landing-page/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://live.omalasschools.com/portfolios/landing-page/" target="_blank"><i class='bx bx-link-external' ></i></a>
                 </div>
             </div>
             <div class="portfolio-bx">
-                <img src="./images/code2image.jpg" alt="">
+                <img src="{{ url_for('static', filename='images/code2image.jpg') }}" alt="">
                 <div class="portfolio-layer">
                     <h4>Code-to-Image Generator</h4>
                     <p>A software tool or service that converts source code into visually appealing</p>
-                    <a href="./portfolios/code-image-gen/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://live.omalasschools.com/portfolios/code-image-gen/" target="_blank"><i class='bx bx-link-external' ></i></a>
                 </div>
             </div>
             <div class="portfolio-bx">
-                <img src="./images/headphone.jpg" alt="">
+                <img src="{{ url_for('static', filename='images/headphone.jpg') }}" alt="">
                 <div class="portfolio-layer">
                     <h4>Responsive Page</h4>
                     <p>Responsive Landing Page Headphones 🎧
                         using HTML, CSS and JAVASCRIPT</p>
-                    <a href="./portfolios/headphones/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://live.omalasschools.com/portfolios/headphones/" target="_blank"><i class='bx bx-link-external' ></i></a>
                 </div>
             </div>
             <div class="portfolio-bx">
-                <img src="./images/qrgenerator.jpg" alt="">
+                <img src="{{ url_for('static', filename='images/qrgenerator.jpg') }}" alt="">
                 <div class="portfolio-layer">
                     <h4>QR Generator</h4>
                     <p>Simple app to generate and download a QR code that can be used to share a link</p>
-                    <a href="./portfolios/qr-gen-code/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://live.omalasschools.com/portfolios/qr-gen-code/" target="_blank"><i class='bx bx-link-external' ></i></a>
                 </div>
             </div>
             <div class="portfolio-bx">
-                <img src="./images/netflix.jpg" alt="">
+                <img src="{{ url_for('static', filename='images/netflix.jpg') }}" alt="">
                 <div class="portfolio-layer">
                     <h4>Netflix Clone</h4>
                     <p>Replicates the core features and functionality of the popular streaming service Netflix.</p>
-                    <a href="./portfolios/netflix-clone/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://live.omalasschools.com/portfolios/netflix-clone/" target="_blank"><i class='bx bx-link-external' ></i></a>
                 </div>
             </div>
             <div class="portfolio-bx">
-                <img src="./images/expense.jpg" alt="">
+                <img src="{{ url_for('static', filename='images/expense.jpg') }}" alt="">
                 <div class="portfolio-layer">
                     <h4>Expense Tracker</h4>
                     <p>Tool designed to help individuals and businesses monitor and manage their financial expenditures.</p>
-                    <a href="./portfolios/expense_tracker/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://live.omalasschools.com/portfolios/expense_tracker/" target="_blank"><i class='bx bx-link-external' ></i></a>
                 </div>
             </div>
             
         </div>
     </section>
 
-    <!-- contact form section -->
-    <!-- <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
-
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
-    </section> -->
-
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
     
-        <form action="/" method="POST">
+        <form action="/submit_contact_form" method="POST">
             <div class="input-box">
-                <input type="text" name="full_name" placeholder="Full Name">
-                <input type="email" name="email_address" placeholder="Email Address">
+                <input type="text" name="full_name" placeholder="Full Name" required>
+                <input type="email" name="email_address" placeholder="Email Address" required>
             </div>
             <div class="input-box">
-                <input type="number" name="mobile_number" placeholder="Mobile Number">
-                <input type="text" name="email_subject" placeholder="Email Subject">
+                <input type="tel" name="mobile_number" placeholder="Mobile Number" required>
+                <input type="text" name="email_subject" placeholder="Email Subject" required>
             </div>
-            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
@@ -196,6 +177,7 @@
     </footer>
 
     <!-- custom JS -->
-    <script src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>

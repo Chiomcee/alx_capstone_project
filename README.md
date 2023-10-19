@@ -19,18 +19,18 @@ Users can navigate through different sections of the website to learn more about
 - JavaScript: Used to add interactivity and enhance the user experience.
 - Git: Version control for project management.
 
-## Screenshots or Demo:
-You can access the live demo of the website here: [Live Demo](https://live.omalasschools.com/)
+## Screenshots and  Demo:
+You can access the live demo of the website here: [Live Demo](https://drive.google.com/file/d/19ZDhqW5dMy2ircAy34KID3FHk5r_YM0N/view?usp=sharing)
 
-![Homepage](myportfolio-page.jpg)
-![About](myportfolio-about.jpg)
-![Skills](myportfolio-skills.jpg)
-![Projects](myportfolio-projects.jpg)
-![Contact](myportfolio-contactme.jpg)
+![Homepage](/static/images/myportfolio-page.jpg)
+![About](/static/images/myportfolio-about.jpg)
+![Skills](/images/myportfolio-skills.jpg)
+![Projects](/static/images/myportfolio-projects.jpg)
+![Contact](/static/images/myportfolio-contactme.jpg)
 
 ## Portfolio Flow Chart and 
-![Flowchart](<Portfolio Flowchart-1.jpg>)
-![Prototype](<Portfolio Prototype.jpg>)
+![Flowchart](/static/images/Portfolio Flowchart-1.jpg)
+![Prototype](/static/images/Portfolio Prototype.jpg)
 
 ## Roadmap and Future Enhancements:
 - **Dynamic Content:** Implement a database to store project data, allowing you to easily add, update, or remove projects through an admin panel.
