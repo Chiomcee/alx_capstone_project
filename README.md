@@ -27,7 +27,6 @@ You can access the live demo of the website here: [Live Demo](https://live.omala
 ![Skills](myportfolio-skills.jpg)
 ![Projects](myportfolio-projects.jpg)
 ![Contact](myportfolio-contactme.jpg)
-![Alt text](myportfolio-page.jpg)
 
 (https://docs.google.com/document/d/1lLxqhELWq1GgV6tZ8NfrHcGcxNH8uKZv/edit?usp=sharing&ouid=109289441158767447573&rtpof=true&sd=true)
 (https://drive.google.com/file/d/1Xf4x-Jz81keFhnPQNIrsmYOP0QRboskM/view?usp=sharing)
