@@ -28,8 +28,9 @@ You can access the live demo of the website here: [Live Demo](https://live.omala
 ![Projects](myportfolio-projects.jpg)
 ![Contact](myportfolio-contactme.jpg)
 
-(https://docs.google.com/document/d/1lLxqhELWq1GgV6tZ8NfrHcGcxNH8uKZv/edit?usp=sharing&ouid=109289441158767447573&rtpof=true&sd=true)
-(https://drive.google.com/file/d/1Xf4x-Jz81keFhnPQNIrsmYOP0QRboskM/view?usp=sharing)
+## Portfolio Flow Chart and 
+![Flowchart](<Portfolio Flowchart-1.jpg>)
+![Prototype](<Portfolio Prototype.jpg>)
 
 ## Roadmap and Future Enhancements:
 - **Dynamic Content:** Implement a database to store project data, allowing you to easily add, update, or remove projects through an admin panel.
