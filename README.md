@@ -28,9 +28,9 @@ You can access the live demo of the website here: [Live Demo](https://drive.goog
 ![Projects](/static/images/myportfolio-projects.jpg)
 ![Contact](/static/images/myportfolio-contactme.jpg)
 
-## Portfolio Flow Chart and 
-![Flowchart](/static/images/Portfolio Flowchart-1.jpg)
-![Prototype](/static/images/Portfolio Prototype.jpg)
+## Portfolio Flow Chart and Prototype
+![Flowchart](/static/images/Portfolio-Flowchart-1.jpg)
+![Prototype](/static/images/Portfolio-Prototype.jpg)
 
 ## Roadmap and Future Enhancements:
 - **Dynamic Content:** Implement a database to store project data, allowing you to easily add, update, or remove projects through an admin panel.
