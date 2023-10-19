@@ -22,11 +22,11 @@ Users can navigate through different sections of the website to learn more about
 ## Screenshots or Demo:
 You can access the live demo of the website here: [Live Demo](https://live.omalasschools.com/)
 
-![Homepage]([screenshots/homepage.png](static/images/myportfolio-page.jpg))
-![About]([screenshots/projects.png](static/images/myportfolio-about.jpg))
-![Skills]([screenshots/projects.png](static/images/myportfolio-skills.jpg))
-![Projects]([screenshots/projects.png](static/images/myportfolio-projects.jpg))
-![Contact]([screenshots/contact.png](static/images/myportfolio-contactme.jpg))
+![Homepage](myportfolio-page.jpg)
+![About](myportfolio-about.jpg)
+![Skills](myportfolio-skills.jpg)
+![Projects](myportfolio-projects.jpg)
+![Contact](myportfolio-contactme.jpg)
 ![Alt text](myportfolio-page.jpg)
 
 (https://docs.google.com/document/d/1lLxqhELWq1GgV6tZ8NfrHcGcxNH8uKZv/edit?usp=sharing&ouid=109289441158767447573&rtpof=true&sd=true)
